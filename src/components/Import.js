@@ -24,6 +24,7 @@ const Import = (props) => {
     return (
         <Container>
             <Button variant="contained" color="primary" onClick={props.fetchMakes}>Import</Button>
+            <h2>COUNT:{props.makes.length}</h2>
             <Table>
                 <TableHead>
                     <TableRow>
